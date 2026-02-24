@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前电量"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv_main_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="40dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_start_service"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="开启显示"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_permission_setting"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4CAF50"
+        android:text="去设置允许后台运行"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+</LinearLayout>
